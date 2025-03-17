@@ -1,0 +1,260 @@
+path{
+    fill: rgb(255, 223, 228);
+    stroke: white;
+}
+
+path:hover{
+    fill: pink;
+    stroke-width: 2px;
+}
+
+.selectedArea{
+    fill: pink;
+    stroke-width: 2px;
+}
+
+.on-mouse{
+    fill: pink;
+    stroke-width: 2px;
+}
+
+#map{
+    position: relative;
+    max-width: 900px;
+    min-height: 500px; 
+}
+
+@media (max-width: 1200px) {
+    #map {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    #map {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    #map {
+        max-width: 400px;
+    }
+}
+
+#map text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    #map text {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 900px) {
+    #map text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #map text {
+        font-size: 1.2rem;
+    }
+}
+
+.city-name{
+    position: absolute;
+    /* font-size: 1.5rem;
+    font-weight: bold; */
+    background-color: transparent;
+    text-align: center;
+}
+
+.bloom{
+    position: absolute;
+    background-color: rgba(201, 201, 201, 0.6);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+}
+/* 🦧 p태그 수정했습니다 경기도랑 제주도 p태그 위치도 수정했서요*/
+.bloom-selected{
+    position: absolute;
+    background-color: rgba(201, 201, 201);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+}
+
+.gangwon{
+    top: 17%;
+    right: 41%;
+}
+
+.gyeonggi{
+    top: 26%;
+    left: 41%;
+}
+
+.seoul{
+    top: 21.5%;
+    left: 38%
+}
+
+.incheon{
+    top: 23%;
+    left: 32.5%;
+}
+
+.chungnam{
+    top: 38%;
+    left: 34%;
+}
+
+.sejong{
+    top: 38%;
+    left: 41.5%;
+}
+
+.daejeon{
+    top: 42%;
+    left: 43.2%;
+}
+
+.chungbuk{
+    top: 33.5%;
+    left: 47%;
+}
+
+.gyeongbuk{
+    top: 41%;
+    right: 35.5%;
+}
+
+.daegu{
+    top: 50.5%;
+    right: 37.5%;
+}
+
+.jeonbuk{
+    bottom: 46%;
+    left: 38.5%;
+}
+
+.jeonnam{
+    bottom: 32%;
+    left: 36%;
+}
+
+.gwangju{
+    bottom: 36%;
+    left: 36%;
+}
+
+.gyeongnam{
+    bottom: 39%;
+    right: 40%;
+}
+
+.ulsan{
+    bottom: 42.8%;
+    right: 28.5%;
+}
+
+.busan{
+    bottom: 36.5%;
+    right: 31%;
+}
+
+.jeju{
+    bottom: 7.2%;
+    left: 32%;
+}
+
+.gangwon-p{
+    bottom: 80.6%;
+    left: 60.5%;
+}
+
+.gyeonggi-p{
+    bottom: 71.0%;
+    left: 46.5%;
+}
+/* 🦧 경기도, 제주, 세종이 다른 지역 p랑 겹치길래 조금 내렸어요 */
+.seoul-p{
+    bottom: 76%;
+    left: 42.5%
+}
+
+.incheon-p{
+    bottom: 74.5%;
+    right: 69%;
+}
+
+.chungnam-p{
+    bottom: 59.8%;
+    right: 67.5%;
+}
+
+.sejong-p{
+    bottom: 65%;
+    right: 57%;
+}
+
+.daejeon-p{
+    top: 43%;
+    right: 57.5%;
+}
+
+.chungbuk-p{
+    bottom: 64%;
+    left: 53.5%;
+}
+
+.gyeongbuk-p{
+    bottom: 56.5%;
+    left: 66.5%;
+}
+
+.daegu-p{
+    bottom: 47%;
+    left: 64%;
+}
+
+.jeonbuk-p{
+    top: 51.5%;
+    right: 63%;
+}
+
+.jeonnam-p{
+    top: 65.8%;
+    right: 65.5%;
+}
+
+.gwangju-p{
+    bottom: 36%;
+    right: 66%;
+}
+
+.gyeongnam-p{
+    bottom: 38.8%;
+    right: 47.5%;
+}
+
+.ulsan-p{
+    top: 55%;
+    left: 73%;
+}
+
+.busan-p{
+    top: 61.2%;
+    left: 70.5%;
+}
+
+.jeju-p{
+    bottom: 9.5%;
+    right: 44%;
+}
